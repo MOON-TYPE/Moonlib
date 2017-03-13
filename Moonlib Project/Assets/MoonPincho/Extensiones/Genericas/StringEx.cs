@@ -113,5 +113,17 @@ namespace MoonPincho.Extensiones
 			return string.IsNullOrEmpty(value);
 		}
 		#endregion
+
+		#region QuitarEspacios
+		/// <summary>
+		/// <para>Eliminar los espacios en blanco, no el del final de la linea</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>Devuelve la cadena sin los espacios.</returns>
+		public static string QuitarEspacios(this string value)
+		{
+			return value.Replace(" ", string.Empty);
+		}
+		#endregion
 	}
 }
