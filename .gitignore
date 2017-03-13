@@ -53,8 +53,8 @@ $RECYCLE.BIN/
 Assets/_Content/GUI
  
 # COPYRIGHTED / ASSET STORE
-{Carpeta proyecto}/Assets/ThirdParty/*
-{Carpeta proyecto}/Assets/ThirdParty.meta
+Moonlib Project/Assets/MoonPincho/MTodo/*
+Moonlib Project/Assets/MoonPincho/MTodo.meta
  
 # GITEYE
 *.project
