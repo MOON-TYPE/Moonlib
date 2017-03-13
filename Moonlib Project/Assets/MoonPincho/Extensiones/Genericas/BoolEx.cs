@@ -7,7 +7,7 @@
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
-namespace MoonPincho
+namespace MoonPincho.Extensiones
 {
 	/// <summary>
 	/// <para>Extension de bools</para>

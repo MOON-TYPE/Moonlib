@@ -8,4 +8,4 @@ Libreria para Unity3d con extensiones utiles
 ## Extensiones Actuales
 ---
 > Genericas
-> > BoolEx : Extensiones de bool.
+> > BoolEx.cs[MoonPincho.Extensiones] : Extensiones de bool.
