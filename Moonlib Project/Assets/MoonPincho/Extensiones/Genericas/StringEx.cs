@@ -9,10 +9,6 @@
 
 #region Librerias
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 #endregion
 
 namespace MoonPincho
@@ -27,7 +23,7 @@ namespace MoonPincho
 		/// <para>Comprueba si es una fecha.</para>
 		/// </summary>
 		/// <param name="value">String de la fecha.</param>
-		/// <returns>Devuelve true si valor es una fecha.</returns>
+		/// <returns>Devuelve true si el valor es una fecha.</returns>
 		public static bool IsFecha(this string value)// Comprueba si es una fecha
 		{
 			try
@@ -42,5 +38,24 @@ namespace MoonPincho
 		}
 		#endregion
 
+		#region IsInt
+		/// <summary>
+		/// <para>Comprueba si es un int.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>Devuelve true si el valor es un int.</returns>
+		public static bool IsInt(this string value)// Comprueba si es un int
+		{
+			try
+			{
+				int tempInt;
+				return int.TryParse(value, out tempInt);
+			}
+			catch (Exception)
+			{
+				return false;
+			}
+		}
+		#endregion
 	}
 }
