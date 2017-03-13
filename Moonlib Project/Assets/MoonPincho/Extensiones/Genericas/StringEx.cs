@@ -22,6 +22,25 @@ namespace MoonPincho
 	/// </summary>
 	public static class StringEx
 	{
+		#region IsFecha
+		/// <summary>
+		/// <para>Comprueba si es una fecha.</para>
+		/// </summary>
+		/// <param name="value">String de la fecha.</param>
+		/// <returns>Devuelve true si valor es una fecha.</returns>
+		public static bool IsFecha(this string value)// Comprueba si es una fecha
+		{
+			try
+			{
+				DateTime tempFecha;
+				return DateTime.TryParse(value, out tempFecha);
+			}
+			catch (Exception)
+			{
+				return false;
+			}
+		}
+		#endregion
 
 	}
 }
