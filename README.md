@@ -9,3 +9,4 @@ Libreria para Unity3d con extensiones utiles
 ---
 > Genericas
 > > BoolEx.cs[MoonPincho.Extensiones] : Extensiones de bool.
+> > StringEx.cs[MoonPincho.Extensiones] : Extensiones de string.
