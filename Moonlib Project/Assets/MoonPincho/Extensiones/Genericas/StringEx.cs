@@ -151,5 +151,17 @@ namespace MoonPincho.Extensiones
 			return value + sep;
 		}
 		#endregion
+
+		#region AddComa
+		/// <summary>
+		/// <para>Agrega la coma a la cadena dada.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>La cadena con el separador.</returns>
+		public static string AddComa(this string value)// Agrega la coma a la cadena dada
+		{
+			return value.AddSeparador(",");
+		}
+		#endregion
 	}
 }
