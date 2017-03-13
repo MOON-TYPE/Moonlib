@@ -57,5 +57,22 @@ namespace MoonPincho
 			}
 		}
 		#endregion
+
+		#region Obtener
+		/// <summary>
+		/// <para>Obtiene los primeros X caracteres.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <param name="num">Numero de caracteres a obtener.</param>
+		/// <returns>Devuelve los caracteres X del string dado.</returns>
+		public static string Obtener(this string value, int num)// Obtiene los primeros X caracteres
+		{
+			// Obtener el numero de caracteres que realmente podemos tomar
+			int maxCaracteres = Math.Min(num, value.Length);
+
+			// Obtener y devolver
+			return value.Substring(0, maxCaracteres);
+		}
+		#endregion
 	}
 }
