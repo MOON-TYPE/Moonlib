@@ -87,5 +87,19 @@ namespace MoonPincho.Extensiones
 			return value.Substring(Math.Min(num, value.Length) - 1);
 		}
 		#endregion
+
+		#region Invertir
+		/// <summary>
+		/// <para>Invierte una cadena.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>Devuelve la cadena dada invertida.</returns>
+		public static string Invertir(this string value)// Invierte una cadena
+		{
+			char[] chars = value.ToCharArray();
+			Array.Reverse(chars);
+			return new String(chars);
+		}
+		#endregion
 	}
 }
