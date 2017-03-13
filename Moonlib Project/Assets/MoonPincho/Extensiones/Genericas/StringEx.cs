@@ -163,5 +163,17 @@ namespace MoonPincho.Extensiones
 			return value.AddSeparador(",");
 		}
 		#endregion
+
+		#region AddNewLinea
+		/// <summary>
+		/// <para>Agrega \r \n a una cadena.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>La cadena con el separador.</returns>
+		public static string AddNewLinea(this string value)// Agrega \r \n a una cadena
+		{
+			return value.AddSeparador("\r\n");
+		}
+		#endregion
 	}
 }
