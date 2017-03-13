@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace MoonPincho
+namespace MoonPincho.Extensiones
 {
 	/// <summary>
 	/// <para>Extension de String</para>
@@ -72,6 +72,19 @@ namespace MoonPincho
 
 			// Obtener y devolver
 			return value.Substring(0, maxCaracteres);
+		}
+		#endregion
+
+		#region Omitir
+		/// <summary>
+		/// <para>Omite los primeros caracteres x y devuelve la cadena restante.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <param name="num">Numero de caracteres a obtener.</param>
+		/// <returns>Devuelve el string con los caracteres quitados.</returns>
+		public static string Omitir(this string value, int num)// Omite los primeros caracteres x y devuelve la cadena restante
+		{
+			return value.Substring(Math.Min(num, value.Length) - 1);
 		}
 		#endregion
 	}
