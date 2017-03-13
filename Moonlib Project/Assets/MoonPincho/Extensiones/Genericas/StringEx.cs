@@ -101,5 +101,17 @@ namespace MoonPincho.Extensiones
 			return new String(chars);
 		}
 		#endregion
+
+		#region IsNullOrEmpty
+		/// <summary>
+		/// <para>Comprueba si la cadena es null o esta vacia.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>True si el parametro value es null o una cadena vacia (""); en caso contrario, false.</returns>
+		public static bool IsNullOrEmpty(this string value)// Comprueba si la cadena es null o esta vacia
+		{
+			return string.IsNullOrEmpty(value);
+		}
+		#endregion
 	}
 }
