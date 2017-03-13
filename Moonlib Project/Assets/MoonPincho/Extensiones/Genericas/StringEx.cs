@@ -9,6 +9,7 @@
 
 #region Librerias
 using System;
+using System.Text.RegularExpressions;
 #endregion
 
 namespace MoonPincho.Extensiones
@@ -116,13 +117,25 @@ namespace MoonPincho.Extensiones
 
 		#region QuitarEspacios
 		/// <summary>
-		/// <para>Eliminar los espacios en blanco, no el del final de la linea</para>
+		/// <para>Eliminar los espacios en blanco, no el del final de la linea.</para>
 		/// </summary>
 		/// <param name="value">El string.</param>
 		/// <returns>Devuelve la cadena sin los espacios.</returns>
-		public static string QuitarEspacios(this string value)
+		public static string QuitarEspacios(this string value)// Eliminar los espacios en blanco, no el del final de la linea
 		{
 			return value.Replace(" ", string.Empty);
+		}
+		#endregion
+
+		#region GetNumPalabras
+		/// <summary>
+		/// <para>Devuelve el numero de palabras de la cadena dada.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>El numero de palabras.</returns>
+		public static int GetNumPalabras(this string value)// Devuelve el numero de palabras de la cadena dada
+		{
+			return (new Regex(@"\w+")).Matches(value).Count;
 		}
 		#endregion
 	}
