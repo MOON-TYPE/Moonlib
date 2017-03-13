@@ -138,5 +138,18 @@ namespace MoonPincho.Extensiones
 			return (new Regex(@"\w+")).Matches(value).Count;
 		}
 		#endregion
+
+		#region AddSeparador
+		/// <summary>
+		/// <para>Agrega el separador dado a la cadena dada.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <param name="sep">El separador.</param>
+		/// <returns>La cadena con el separador.</returns>
+		public static string AddSeparador(this string value, string sep)// Agrega el separador dado a la cadena dada
+		{
+			return value + sep;
+		}
+		#endregion
 	}
 }
