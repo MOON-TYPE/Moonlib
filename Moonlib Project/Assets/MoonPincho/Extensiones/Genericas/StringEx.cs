@@ -175,5 +175,17 @@ namespace MoonPincho.Extensiones
 			return value.AddSeparador("\r\n");
 		}
 		#endregion
+
+		#region AddEspacio
+		/// <summary>
+		/// <para>Agrega un espacio a la cadena dada.</para>
+		/// </summary>
+		/// <param name="value">El string.</param>
+		/// <returns>La cadena con el separador.</returns>
+		public static string AddEspacio(this string value)// Agrega un espacio a la cadena dada
+		{
+			return value.AddSeparador(" ");
+		}
+		#endregion
 	}
 }
