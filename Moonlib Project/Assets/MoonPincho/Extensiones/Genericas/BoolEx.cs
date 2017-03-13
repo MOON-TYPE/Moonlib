@@ -1,13 +1,13 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
 // BoolEx.cs (13/03/2017)														\\
-// Autor: Antonio Mateo (Moon Pincho) 									        \\
+// Autor: Antonio Mateo (Moon Antonio) antoniomt.moon@gmail.com					\\
 // Descripcion:		Extension de bools											\\
 // Fecha Mod:		13/03/2017													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
-namespace MoonPincho.Extensiones
+namespace MoonPincho.Moonlib
 {
 	/// <summary>
 	/// <para>Extension de bools</para>
