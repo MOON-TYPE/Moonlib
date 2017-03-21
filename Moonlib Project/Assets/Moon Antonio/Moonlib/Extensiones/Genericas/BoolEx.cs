@@ -3,11 +3,11 @@
 // BoolEx.cs (13/03/2017)														\\
 // Autor: Antonio Mateo (Moon Antonio) antoniomt.moon@gmail.com					\\
 // Descripcion:		Extension de bools											\\
-// Fecha Mod:		13/03/2017													\\
-// Ultima Mod:		Version Inicial												\\
+// Fecha Mod:		21/03/2017													\\
+// Ultima Mod:		Cambio de namespace											\\
 //******************************************************************************\\
 
-namespace MoonPincho.Moonlib
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Extension de bools</para>

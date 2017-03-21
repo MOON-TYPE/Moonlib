@@ -3,8 +3,8 @@
 // StringEx.cs (13/03/2017)														\\
 // Autor: Antonio Mateo (Moon Antonio) antoniomt.moon@gmail.com					\\
 // Descripcion:		Extension de String											\\
-// Fecha Mod:		13/03/2017													\\
-// Ultima Mod:		Version Inicial												\\
+// Fecha Mod:		21/03/2017													\\
+// Ultima Mod:		Cambio de namespace											\\
 //******************************************************************************\\
 
 #region Librerias
@@ -12,7 +12,7 @@ using System;
 using System.Text.RegularExpressions;
 #endregion
 
-namespace MoonPincho.Moonlib
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Extension de String</para>
