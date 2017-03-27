@@ -18,6 +18,8 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 ## Extensiones Actuales
 ---
 > Genericas
-> > **BoolEx.cs**[MoonPincho.Extensiones] : Extensiones de bool.
+> > **BoolEx.cs**[MoonAntonioMoonAntonio.Extensiones] : Extensiones de bool.
 
-> > **StringEx.cs**[MoonPincho.Extensiones] : Extensiones de string.
+> > **StringEx.cs**[MoonAntonioMoonAntonio.Extensiones] : Extensiones de string.
+
+> > **DebugEx.cs**[MoonAntonio.Extensiones] : Extensiones de Debug.(Implementando aun ...)
