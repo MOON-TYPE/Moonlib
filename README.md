@@ -42,4 +42,8 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 
 > Encriptacion
 
-> > **AES.cs**[MoonAntonio.Moonlib] : Cifrado simetrico
+> > **AES.cs**[MoonAntonio.Moonlib] : Cifrado simetrico.
+
+> > **Base64.cs**[MoonAntonio.Moonlib] : Cifrado Rapido.
+
+> > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
