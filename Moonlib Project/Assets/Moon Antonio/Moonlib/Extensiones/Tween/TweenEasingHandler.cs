@@ -11,7 +11,7 @@
 using UnityEngine;
 #endregion
 
-namespace MoonAntonio.Tweens
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Aplica el Tween.</para>

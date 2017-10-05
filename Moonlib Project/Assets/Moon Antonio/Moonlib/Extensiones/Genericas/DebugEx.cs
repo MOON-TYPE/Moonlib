@@ -44,39 +44,39 @@ namespace MoonAntonio.Moonlib
 		/// <param name="msg">Mensaje a imprimir por consola.</param>
 		/// <param name="header">Texto del header.</param>
 		/// <param name="color">Color del texto del mensaje.</param>
-		public static void Log(string msg, string header, Color color)// Imprime un mensaje con un color por consola y un header
+		public static void Log(string msg, string header, ColorDebug color)// Imprime un mensaje con un color por consola y un header
 		{
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("[" + header + "] " + "<color=#ff0000ff>" + msg + "</color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("[" + header + "] " + "<color=#00ff00ff>" + msg + "</color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("[" + header + "] " + "<color=#0000a0ff>" + msg + "</color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("[" + header + "] " + "<color=#800080ff>" + msg + "</color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("[" + header + "] " + "<color=#ffa500ff>" + msg + "</color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("[" + header + "] " + "<color=#00ffffff>" + msg + "</color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("[" + header + "] " + msg);
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("[" + header + "] " + "<color=#000000ff>" + msg + "</color>");
 					break;
 
@@ -93,42 +93,42 @@ namespace MoonAntonio.Moonlib
 		/// <param name="header">Texto del header.</param>
 		/// <param name="color">Color del mensaje.</param>
 		/// <param name="estilo">Estilo del mensaje.</param>
-		public static void Log(string msg, string header, Color color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola con un header
+		public static void Log(string msg, string header, ColorDebug color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola con un header
 		{
 			#region Estilo Normal
 			if (estilo == Estilo.Normal)
 			{
 				switch (color)
 				{
-					case Color.Rojo:
+					case ColorDebug.Rojo:
 						Debug.Log("[" + header + "] " + "<color=#ff0000ff>" + msg + "</color>");
 						break;
 
-					case Color.Verde:
+					case ColorDebug.Verde:
 						Debug.Log("[" + header + "] " + "<color=#00ff00ff>" + msg + "</color>");
 						break;
 
-					case Color.Azul:
+					case ColorDebug.Azul:
 						Debug.Log("[" + header + "] " + "<color=#0000a0ff>" + msg + "</color>");
 						break;
 
-					case Color.Morado:
+					case ColorDebug.Morado:
 						Debug.Log("[" + header + "] " + "<color=#800080ff>" + msg + "</color>");
 						break;
 
-					case Color.Naranja:
+					case ColorDebug.Naranja:
 						Debug.Log("[" + header + "] " + "<color=#ffa500ff>" + msg + "</color>");
 						break;
 
-					case Color.Cyan:
+					case ColorDebug.Cyan:
 						Debug.Log("[" + header + "] " + "<color=#00ffffff>" + msg + "</color>");
 						break;
 
-					case Color.Blanco:
+					case ColorDebug.Blanco:
 						Debug.Log("[" + header + "] " + msg);
 						break;
 
-					case Color.Negro:
+					case ColorDebug.Negro:
 						Debug.Log("[" + header + "] " + "<color=#000000ff>" + msg + "</color>");
 						break;
 
@@ -142,35 +142,35 @@ namespace MoonAntonio.Moonlib
 			#region Estilo Negrita
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("[" + header + "] " + "<color=#ff0000ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("[" + header + "] " + "<color=#00ff00ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("[" + header + "] " + "<color=#0000a0ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("[" + header + "] " + "<color=#800080ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("[" + header + "] " + "<color=#ffa500ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("[" + header + "] " + "<color=#00ffffff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("[" + header + "] " + "<b>" + msg + "</b>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("[" + header + "] " + "<color=#000000ff><b>" + msg + "</b></color>");
 					break;
 
@@ -183,35 +183,35 @@ namespace MoonAntonio.Moonlib
 			#region Italico
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("[" + header + "] " + "<color=#ff0000ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("[" + header + "] " + "<color=#00ff00ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("[" + header + "] " + "<color=#0000a0ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("[" + header + "] " + "<color=#800080ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("[" + header + "] " + "<color=#ffa500ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("[" + header + "] " + "<color=#00ffffff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("[" + header + "] " + "<i>" + msg + "</i>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("[" + header + "] " + "<color=#000000ff><i>" + msg + "</i></color>");
 					break;
 
@@ -227,39 +227,39 @@ namespace MoonAntonio.Moonlib
 		/// </summary>
 		/// <param name="msg">Mensaje a imprimir.</param>
 		/// <param name="color">Color del texto del mensaje.</param>
-		public static void Log(string msg, Color color)// Imprime un mensaje con un color por consola
+		public static void Log(string msg, ColorDebug color)// Imprime un mensaje con un color por consola
 		{
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("<color=#ff0000ff>" + msg + "</color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("<color=#00ff00ff>" + msg + "</color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("<color=#0000a0ff>" + msg + "</color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("<color=#800080ff>" + msg + "</color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("<color=#ffa500ff>" + msg + "</color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("<color=#00ffffff>" + msg + "</color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log(msg);
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("<color=#000000ff>" + msg + "</color>");
 					break;
 
@@ -276,42 +276,42 @@ namespace MoonAntonio.Moonlib
 		/// <param name="msg">Mensaje a imprimir.</param>
 		/// <param name="color">Color del texto del mensaje.</param>
 		/// <param name="estilo">Estilo del texto del mensaje.</param>
-		public static void Log(string msg, Color color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola
+		public static void Log(string msg, ColorDebug color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola
 		{
 			#region Estilo Normal
 			if (estilo == Estilo.Normal)
 			{
 				switch (color)
 				{
-					case Color.Rojo:
+					case ColorDebug.Rojo:
 						Debug.Log("<color=#ff0000ff>" + msg + "</color>");
 						break;
 
-					case Color.Verde:
+					case ColorDebug.Verde:
 						Debug.Log("<color=#00ff00ff>" + msg + "</color>");
 						break;
 
-					case Color.Azul:
+					case ColorDebug.Azul:
 						Debug.Log("<color=#0000a0ff>" + msg + "</color>");
 						break;
 
-					case Color.Morado:
+					case ColorDebug.Morado:
 						Debug.Log("<color=#800080ff>" + msg + "</color>");
 						break;
 
-					case Color.Naranja:
+					case ColorDebug.Naranja:
 						Debug.Log("<color=#ffa500ff>" + msg + "</color>");
 						break;
 
-					case Color.Cyan:
+					case ColorDebug.Cyan:
 						Debug.Log("<color=#00ffffff>" + msg + "</color>");
 						break;
 
-					case Color.Blanco:
+					case ColorDebug.Blanco:
 						Debug.Log(msg);
 						break;
 
-					case Color.Negro:
+					case ColorDebug.Negro:
 						Debug.Log("<color=#000000ff>" + msg + "</color>");
 						break;
 
@@ -325,35 +325,35 @@ namespace MoonAntonio.Moonlib
 			#region Estilo Negrita
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("<color=#ff0000ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("<color=#00ff00ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("<color=#0000a0ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("<color=#800080ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("<color=#ffa500ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("<color=#00ffffff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("<b>" + msg + "</b>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("<color=#000000ff><b>" + msg + "</b></color>");
 					break;
 
@@ -366,35 +366,35 @@ namespace MoonAntonio.Moonlib
 			#region Italico
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("<color=#ff0000ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("<color=#00ff00ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("<color=#0000a0ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("<color=#800080ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("<color=#ffa500ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("<color=#00ffffff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("<i>" + msg + "</i>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("<color=#000000ff><i>" + msg + "</i></color>");
 					break;
 
@@ -430,42 +430,42 @@ namespace MoonAntonio.Moonlib
 		/// <param name="msg">Mensaje a imprimir.</param>
 		/// <param name="color">Color del texto a imprimir.</param>
 		/// <param name="estilo">Estilo del texto a imprimir.</param>
-		public static void MLog(string msg, Color color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola
+		public static void MLog(string msg, ColorDebug color, Estilo estilo)// Imprime un mensaje con un color y un estilo por consola
 		{
 			#region Estilo Normal
 			if (estilo == Estilo.Normal)
 			{
 				switch (color)
 				{
-					case Color.Rojo:
+					case ColorDebug.Rojo:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ff0000ff>" + msg + "</color>");
 						break;
 
-					case Color.Verde:
+					case ColorDebug.Verde:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ff00ff>" + msg + "</color>");
 						break;
 
-					case Color.Azul:
+					case ColorDebug.Azul:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#0000a0ff>" + msg + "</color>");
 						break;
 
-					case Color.Morado:
+					case ColorDebug.Morado:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#800080ff>" + msg + "</color>");
 						break;
 
-					case Color.Naranja:
+					case ColorDebug.Naranja:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ffa500ff>" + msg + "</color>");
 						break;
 
-					case Color.Cyan:
+					case ColorDebug.Cyan:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ffffff>" + msg + "</color>");
 						break;
 
-					case Color.Blanco:
+					case ColorDebug.Blanco:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + msg);
 						break;
 
-					case Color.Negro:
+					case ColorDebug.Negro:
 						Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#000000ff>" + msg + "</color>");
 						break;
 
@@ -479,35 +479,35 @@ namespace MoonAntonio.Moonlib
 			#region Estilo Negrita
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ff0000ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ff00ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#0000a0ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#800080ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ffa500ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ffffff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<b>" + msg + "</b>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#000000ff><b>" + msg + "</b></color>");
 					break;
 
@@ -520,35 +520,35 @@ namespace MoonAntonio.Moonlib
 			#region Italico
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ff0000ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ff00ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#0000a0ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#800080ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#ffa500ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#00ffffff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<i>" + msg + "</i>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("<color=#00ff00ff><b>[LOG]</b></color> -" + "<color=#000000ff><i>" + msg + "</i></color>");
 					break;
 
@@ -566,42 +566,42 @@ namespace MoonAntonio.Moonlib
 		/// <param name="msg">Mensaje a imprimir por consola.</param>
 		/// <param name="color">Color del texto del mensaje a imprimir.</param>
 		/// <param name="estilo">Estilo del texto del mensaje a imprimir.</param>
-		public static void MLog(string header, string msg, Color color, Estilo estilo)// Imprime un mensaje con un color y un estilo con un header por consola
+		public static void MLog(string header, string msg, ColorDebug color, Estilo estilo)// Imprime un mensaje con un color y un estilo con un header por consola
 		{
 			#region Estilo Normal
 			if (estilo == Estilo.Normal)
 			{
 				switch (color)
 				{
-					case Color.Rojo:
+					case ColorDebug.Rojo:
 						Debug.Log("[" + header + "] " + "<color=#ff0000ff>" + msg + "</color>");
 						break;
 
-					case Color.Verde:
+					case ColorDebug.Verde:
 						Debug.Log("[" + header + "] " + "<color=#00ff00ff>" + msg + "</color>");
 						break;
 
-					case Color.Azul:
+					case ColorDebug.Azul:
 						Debug.Log("[" + header + "] " + "<color=#0000a0ff>" + msg + "</color>");
 						break;
 
-					case Color.Morado:
+					case ColorDebug.Morado:
 						Debug.Log("[" + header + "] " + "<color=#800080ff>" + msg + "</color>");
 						break;
 
-					case Color.Naranja:
+					case ColorDebug.Naranja:
 						Debug.Log("[" + header + "] " + "<color=#ffa500ff>" + msg + "</color>");
 						break;
 
-					case Color.Cyan:
+					case ColorDebug.Cyan:
 						Debug.Log("[" + header + "] " + "<color=#00ffffff>" + msg + "</color>");
 						break;
 
-					case Color.Blanco:
+					case ColorDebug.Blanco:
 						Debug.Log("[" + header + "] " + msg);
 						break;
 
-					case Color.Negro:
+					case ColorDebug.Negro:
 						Debug.Log("[" + header + "] " + "<color=#000000ff>" + msg + "</color>");
 						break;
 
@@ -615,35 +615,35 @@ namespace MoonAntonio.Moonlib
 			#region Estilo Negrita
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("[" + header + "] " + "<color=#ff0000ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("[" + header + "] " + "<color=#00ff00ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("[" + header + "] " + "<color=#0000a0ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("[" + header + "] " + "<color=#800080ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("[" + header + "] " + "<color=#ffa500ff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("[" + header + "] " + "<color=#00ffffff><b>" + msg + "</b></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("[" + header + "] " + "<b>" + msg + "</b>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("[" + header + "] " + "<color=#000000ff><b>" + msg + "</b></color>");
 					break;
 
@@ -656,35 +656,35 @@ namespace MoonAntonio.Moonlib
 			#region Italico
 			switch (color)
 			{
-				case Color.Rojo:
+				case ColorDebug.Rojo:
 					Debug.Log("[" + header + "] " + "<color=#ff0000ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Verde:
+				case ColorDebug.Verde:
 					Debug.Log("[" + header + "] " + "<color=#00ff00ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Azul:
+				case ColorDebug.Azul:
 					Debug.Log("[" + header + "] " + "<color=#0000a0ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Morado:
+				case ColorDebug.Morado:
 					Debug.Log("[" + header + "] " + "<color=#800080ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Naranja:
+				case ColorDebug.Naranja:
 					Debug.Log("[" + header + "] " + "<color=#ffa500ff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Cyan:
+				case ColorDebug.Cyan:
 					Debug.Log("[" + header + "] " + "<color=#00ffffff><i>" + msg + "</i></color>");
 					break;
 
-				case Color.Blanco:
+				case ColorDebug.Blanco:
 					Debug.Log("[" + header + "] " + "<i>" + msg + "</i>");
 					break;
 
-				case Color.Negro:
+				case ColorDebug.Negro:
 					Debug.Log("[" + header + "] " + "<color=#000000ff><i>" + msg + "</i></color>");
 					break;
 
@@ -700,7 +700,7 @@ namespace MoonAntonio.Moonlib
 	/// <summary>
 	/// <para>Colores disponibles</para>
 	/// </summary>
-	public enum Color
+	public enum ColorDebug
 	{
 		Rojo,
 		Verde,

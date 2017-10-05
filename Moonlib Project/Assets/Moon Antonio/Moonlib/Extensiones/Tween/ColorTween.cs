@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEngine.Events;
 #endregion
 
-namespace MoonAntonio.Tweens
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Tween para el color.</para>
