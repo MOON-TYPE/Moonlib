@@ -17,6 +17,12 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 
 * Unity3D 5.5+
 
+## Como usar
+
+Descarga la version mas reciente desde [aqui][1], e importa el paquete en unity.
+
+Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
+
 ## Extensiones Actuales
 ---
 
@@ -47,3 +53,6 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 > > **Base64.cs**[MoonAntonio.Moonlib] : Cifrado Rapido.
 
 > > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
+
+[1]: https://github.com/MOON-TYPE/Moonlib/releases
+[2]: https://github.com/MOON-TYPE/Moonlib/wiki
