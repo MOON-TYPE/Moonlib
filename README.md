@@ -39,3 +39,7 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 > > **Vector2Tween.cs**[MoonAntonio.Tweens] : Interpolaciones de vector2.
 
 > > **Vector3Tween.cs**[MoonAntonio.Tweens] : Interpolaciones de vector3.
+
+> Encriptacion
+
+> > 
