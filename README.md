@@ -34,7 +34,7 @@ Libreria para Unity3d con extensiones utiles **(Actualmente activa)**
 
 > > **ColorTween.cs**[MoonAntonio.Moonlib] : Interpolaciones de color.
 
-> > **FloatTween.cs**[MoonAntonio.Moonlib] : Interpolaciones de floar.
+> > **FloatTween.cs**[MoonAntonio.Moonlib] : Interpolaciones de float.
 
 > > **Vector2Tween.cs**[MoonAntonio.Moonlib] : Interpolaciones de vector2.
 
