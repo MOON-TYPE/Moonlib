@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEngine.Events;
 #endregion
 
-namespace MoonAntonio.Tweens
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Tween con un Vector2.</para>

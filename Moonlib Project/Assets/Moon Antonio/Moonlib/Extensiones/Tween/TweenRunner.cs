@@ -12,7 +12,7 @@ using UnityEngine;
 using System.Collections;
 #endregion
 
-namespace MoonAntonio.Tweens
+namespace MoonAntonio.Moonlib
 {
 	/// <summary>
 	/// <para>Tween runner ejecuta la interpolacion dada</para>
