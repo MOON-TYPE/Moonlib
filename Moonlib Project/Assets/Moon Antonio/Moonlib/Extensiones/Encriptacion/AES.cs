@@ -2,7 +2,7 @@
 //																				\\
 // AES.cs (05/10/2017)															\\
 // Autor: Antonio Mateo (Moon Antonio) antoniomt.moon@gmail.com					\\
-// Descripcion:		Extension de datos para encriptacion avanzada				\\
+// Descripcion:		Extension para encriptacion avanzada						\\
 // Fecha Mod:		05/10/2017													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
@@ -39,17 +39,17 @@ namespace MoonAntonio.Moonlib
 
 		#region API
 		/// <summary>
-		/// <para>Cifrar string simple con password.</para>
+		/// <para>Cifrar string simple con password (AES).</para>
 		/// </summary>
-		public static string Encriptar(string value, string password)// Cifrar string simple con password
+		public static string Encriptar(string value, string password)// Cifrar string simple con password (AES)
 		{
 			return Encriptar(Encoding.UTF8.GetBytes(value), password);
 		}
 
 		/// <summary>
-		/// <para>Cifrar array de bytes simples utilizando la password.</para>
+		/// <para>Cifrar array de bytes simples utilizando la password (AES).</para>
 		/// </summary>
-		public static string Encriptar(byte[] value, string password)// Cifrar array de bytes simples utilizando la password
+		public static string Encriptar(byte[] value, string password)// Cifrar array de bytes simples utilizando la password (AES)
 		{
 			var keyBytes = new Rfc2898DeriveBytes(password, Encoding.UTF8.GetBytes(SaltKey)).GetBytes(KeyLength / 8);
 			var keySimetrica = new RijndaelManaged { Mode = CipherMode.CBC, Padding = PaddingMode.Zeros };
@@ -70,9 +70,9 @@ namespace MoonAntonio.Moonlib
 		}
 
 		/// <summary>
-		/// <para>Descifrar string cifrada AES utilizando password.</para>
+		/// <para>Descifrar string cifrada AES utilizando password (AES).</para>
 		/// </summary>
-		public static string Desencriptar(string value, string password)// Descifrar string cifrada AES utilizando password
+		public static string Desencriptar(string value, string password)// Descifrar string cifrada AES utilizando password (AES)
 		{
 			var cifrarTextBytes = Convert.FromBase64String(value);
 			var keyBytes = new Rfc2898DeriveBytes(password, Encoding.UTF8.GetBytes(SaltKey)).GetBytes(KeyLength / 8);
