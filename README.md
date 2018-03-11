@@ -29,12 +29,28 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 > Datos
 > > **CSV.cs**[MoonAntonio.Moonlib] : Extension de datos para archivos CSV
 
+> Encriptacion
+
+> > **AES.cs**[MoonAntonio.Moonlib] : Cifrado simetrico.
+
+> > **Base64.cs**[MoonAntonio.Moonlib] : Cifrado Rapido.
+
+> > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
+
 > Genericas
 > > **BoolEx.cs**[MoonAntonio.Moonlib] : Extensiones de bool.
 
 > > **StringEx.cs**[MoonAntonio.Moonlib] : Extensiones de string.
 
 > > **DebugEx.cs**[MoonAntonio.Moonlib] : Extensiones de Debug.(Implementando aun ...)
+
+> Internal
+
+> > **MLMonoBehaviour.cs**[MoonAntonio.Moonlib] : Proporciona algunas funciones adicionales para MonoBehaviour.
+
+> Patrones
+
+> > **Singleton.cs**[MoonAntonio.Moonlib] : Implementacion generica de Singleton MonoBehaviour.
 
 > Tweens
 
@@ -46,13 +62,7 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 
 > > **Vector3Tween.cs**[MoonAntonio.Moonlib] : Interpolaciones de vector3.
 
-> Encriptacion
 
-> > **AES.cs**[MoonAntonio.Moonlib] : Cifrado simetrico.
-
-> > **Base64.cs**[MoonAntonio.Moonlib] : Cifrado Rapido.
-
-> > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
 
 [1]: https://github.com/MOON-TYPE/Moonlib/releases
 [2]: https://github.com/MOON-TYPE/Moonlib/wiki
