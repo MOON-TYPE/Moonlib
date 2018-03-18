@@ -48,7 +48,7 @@ namespace MoonAntonio.Moonlib
 			while (tiempoElapsed < tweenInfo.Duracion)
 			{
 				// Ignorar time scale
-				tiempoElapsed += (tweenInfo.IgnorarTimeScale ? Time.unscaledDeltaTime : Time.deltaTime);
+				tiempoElapsed += (tweenInfo.IgnorarTimeScale ? UnityEngine.Time.unscaledDeltaTime : UnityEngine.Time.deltaTime);
 
 				// Obtener el valor
 				float valor = TweenEasingHandler.Aplicar(tweenInfo.Easing, tiempoElapsed, 0.0f, 1.0f, tweenInfo.Duracion);

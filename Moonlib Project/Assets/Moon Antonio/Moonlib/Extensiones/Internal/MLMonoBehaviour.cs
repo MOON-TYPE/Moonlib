@@ -294,7 +294,7 @@ namespace MoonAntonio.Moonlib
 		/// <returns></returns>
 		public static Coroutine Tween<T>(this MonoBehaviour monoBehaviour, T start, T finish, float tiempoTotal, Func<T, T, float, T> lerp, Action<T> accion)
 		{
-			return Tween(monoBehaviour, start, finish, tiempoTotal, lerp, accion, () => Time.deltaTime);
+			return Tween(monoBehaviour, start, finish, tiempoTotal, lerp, accion, () => UnityEngine.Time.deltaTime);
 		}
 
 		/// <summary>
