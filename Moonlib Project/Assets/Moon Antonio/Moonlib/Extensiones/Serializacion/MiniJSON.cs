@@ -55,7 +55,7 @@ namespace MoonAntonio.MiniJSON
 	/// <summary>
 	/// <para>Esta clase codifica y decodifica cadenas JSON.</para>
 	/// </summary>
-	public static class MiniJSON 
+	public static class Json
 	{
 		#region API
 		/// <summary>
