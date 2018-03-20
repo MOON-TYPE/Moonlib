@@ -9,12 +9,15 @@
 
 #region Librerias
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using MoonAntonio.MiniJSON;
+using System;
 #endregion
 
 namespace MoonAntonio.Moonlib.Trello
 {
 	public class Trello : MonoBehaviour 
 	{
-		
 	}
 }
