@@ -11,7 +11,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using MoonAntonio.MiniJSON;
+using MoonAntonio.Moonlib.MiniJSON;
 #endregion
 
 namespace MoonAntonio.Moonlib.Trello

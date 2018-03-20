@@ -37,6 +37,10 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 
 > > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
 
+> Framework
+
+> > **Trello.cs**[MoonAntonio.Moonlib.Trello] : Clase con la funcionalidad de Trello.
+
 > Genericas
 > > **BoolEx.cs**[MoonAntonio.Moonlib] : Extensiones de bool.
 
@@ -57,6 +61,10 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 > Patrones
 
 > > **Singleton.cs**[MoonAntonio.Moonlib] : Implementacion generica de Singleton MonoBehaviour.
+
+> Serializacion
+
+> > **MiniJSON.cs**[MoonAntonio.Moonlib.MiniJSON] : Esta clase codifica y decodifica cadenas JSON.
 
 > Tweens
 

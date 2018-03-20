@@ -50,7 +50,7 @@ using System.Text;
 //  }
 #endregion
 
-namespace MoonAntonio.MiniJSON
+namespace MoonAntonio.Moonlib.MiniJSON
 {
 	/// <summary>
 	/// <para>Esta clase codifica y decodifica cadenas JSON.</para>
