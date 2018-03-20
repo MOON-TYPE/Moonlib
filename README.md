@@ -44,6 +44,12 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 
 > > **DebugEx.cs**[MoonAntonio.Moonlib] : Extensiones de Debug.(Implementando aun ...)
 
+> > **FloatProt.cs**[MoonAntonio.Moonlib] : Contenedor para la proteccion de valores de tipo float.
+
+> > **IntProt.cs**[MoonAntonio.Moonlib] : Contenedor para la proteccion de valores de tipo int32.
+
+> > **LongProt.cs**[MoonAntonio.Moonlib] : EContenedor para la proteccion de valores de tipo int64.
+
 > Internal
 
 > > **MLMonoBehaviour.cs**[MoonAntonio.Moonlib] : Proporciona algunas funciones adicionales para MonoBehaviour.
