@@ -37,6 +37,10 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 
 > > **MD5.cs**[MoonAntonio.Moonlib] : Cifrado comprobante.
 
+> Extensiones
+
+> > **EmailValidator.cs**[MoonAntonio.Moonlib] : Ayudante validador de un correo electronico.
+
 > Framework
 
 > > **Trello.cs**[MoonAntonio.Moonlib.Trello] : Clase con la funcionalidad de Trello.
@@ -53,6 +57,8 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 > > **IntProt.cs**[MoonAntonio.Moonlib] : Contenedor para la proteccion de valores de tipo int32.
 
 > > **LongProt.cs**[MoonAntonio.Moonlib] : EContenedor para la proteccion de valores de tipo int64.
+
+> > **ComputerSizingEx.cs**[MoonAntonio.Moonlib] : Extension para dimensionar (KB, MB, GB, etc.).
 
 > Internal
 
