@@ -41,6 +41,8 @@ Si tienes dudas, la [**wiki**][2] tiene toda la informacion.
 
 > > **EmailValidator.cs**[MoonAntonio.Moonlib] : Ayudante validador de un correo electronico.
 
+> > **ComparablesExt.cs**[MoonAntonio.Moonlib] : Extension para comparaciones.
+
 > Framework
 
 > > **Trello.cs**[MoonAntonio.Moonlib.Trello] : Clase con la funcionalidad de Trello.
