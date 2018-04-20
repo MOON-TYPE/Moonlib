@@ -1,7 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/MOON-TYPE/Moonlib.svg)](https://github.com/MOON-TYPE/Moonlib/issues)
 [![UnityVersion](https://img.shields.io/badge/Unity-2017.1.1p2-brightgreen.svg)](https://unity3d.com/es)
 [![Trello](https://img.shields.io/badge/Trello-OFF-red.svg)](https://github.com/MOON-TYPE/MIcaros)
-[![Slack Status](https://moonantonio.herokuapp.com/badge.svg)](https://moonantonio.herokuapp.com/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MOON-TYPE/Moonlib/master/LICENSE)
 [![GitHub forks](https://img.shields.io/github/forks/MOON-TYPE/Moonlib.svg)](https://github.com/MOON-TYPE/Moonlib/network)
 [![GitHub stars](https://img.shields.io/github/stars/MOON-TYPE/Moonlib.svg)](https://github.com/MOON-TYPE/Moonlib/stargazers)
